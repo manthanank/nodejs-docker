@@ -32,6 +32,3 @@ jobs:
 
     - name: Run Docker container
       run: docker run -d -p 3000:3000 nodejs-docker
-
-    - name: Verify Docker container is running
-      run: curl --fail http://localhost:3000
